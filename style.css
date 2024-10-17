@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main_box {
+    background: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn_one {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 16px;
+    line-height: 6opx;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu {
+    position: fixed;
+    height: 100vh;
+    left:-310px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s linear;
+
+}
+
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar_menu .btn_two {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 270px;
+    line-height: 60px;
+    /* opacity: 0; */
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .menu {
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+}
+
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu i,a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar_menu i {
+    padding-right:8px;
+}
+
+.sidebar_menu .social_media {
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+    
+}
+
+.sidebar_menu .social_media i {
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+
+}
+#check {
+    display: none;
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+.btn_one:hover {
+    font-size: 40px;
+
+}
+
+.btn_two:hover {
+    font-size: 30px;
+}
+
+.btn_one i :hover {
+    /* font-size: 40px; */
+    cursor: pointer;
+
+}
+
+.btn_two i:hover {
+    /* font-size: 30px; */
+    cursor: pointer;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+#check:checked ~ .sidebar_menu {
+    left:0;
+} 
+
+#check:checked ~ .btn_one i {
+    opacity: 0;
+}
+
+
+.search_bar {
+    position: absolute;
+    left:  37%;
+    top:45%;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 500px;
+    /* display: grid; */
+    /* flex-wrap: wrap; */
+    border-radius: 25px;
+    /* border: 5px solid white; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+
+#feach {
+    width: 80%;
+    height: 100%;
+    border: 1px solid white;
+    /* border-radius: 25px 0 0 25px; */
+    /* display: inline-block; */
+    display: flex;
+    border: none;
+    border-radius: 25px;
+    width: 490px;
+    
+   
+}
+
+.click {
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid rgb(16, 15, 15); */
+    border-radius: 0 25px 25px 0;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    
+}
+#feach button {
+    width: 100px;
+    height: 52px;
+    margin-right: 0%;
+}
+#LA{
+    color: white;
+    position: absolute;
+    border-radius: 25px ;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: black;
+    width: 490px;
+    padding-left:8px;
+    /* padding-right: 10px; */
+}
+#seen {
+    position: absolute;
+    width: 2%;
+    right: 0px;
+    top:0px;
+    
+    border-radius: 0 25px 25px 0;
+}
+/* .search_bar input .img {
+
+    
+    font-size: 16px;
+    position: absolute;
+    left: 5%; */
+/* } */
+
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+
+/* .search_bar textarea {
+    font-size: 33px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#initial_box {
+    width: 600px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+}
+
+#initial_box button{
+    width: 50px;
+    height: 42.91px;
+    border-radius:0px 15px 15px 0px ;
+    position: absolute;
+    right: 0px;
+    
+} */
+
